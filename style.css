@@ -1,0 +1,155 @@
+/* Apply background color to the entire body */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Style for the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling for the main content row */
+.row {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styling for the recommended products container */
+.recommended-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex; /* Apply flex display to make children flex items */
+    justify-content: space-between; /* Adjust spacing between items */
+}
+
+/* Styling for each recommended product column */
+.col-md-3 {
+    border-radius: 10px;
+    background-color: aliceblue;
+    align-items: center;
+    margin: 2px;
+    flex: 1; /* Allow items to take equal space within the flex container */
+}
+
+/* Styling for product images */
+.product-image {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+/* Styling for recommended product images */
+.Recommended-Image {
+    cursor: pointer;
+    margin: 20px auto;
+    align-items: center;
+}
+
+/* Styling for product information */
+.product-info {
+    text-align: center;
+}
+
+/* Styling for product name */
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for product description */
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Styling for product price */
+.product-price {
+    font-size: 20px;
+    color: #e44d26;
+    margin-bottom: 20px;
+}
+
+/* Styling for call-to-action buttons */
+.cta-button, .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e44d26;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.cta-button:hover, .learn-more:hover {
+    background-color: #333;
+}
+
+/* Hover effect for product images with animation */
+.product-image:hover {
+    opacity: 0.7;
+    animation-name: Image;
+    animation-duration: 1s;
+}
+
+/* Keyframes for image animation */
+@keyframes Image {
+    from {
+        width: 75%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+/* Hover effect for recommended product images */
+.Recommended-Image:hover {
+    opacity: 0.7;
+}
+
+/* Center-align h1 elements */
+h1 {
+    text-align: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .recommended-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Styling for price and description elements */
+.price, .description {
+    text-align: center;
+    font-size: large;
+}
+
+/* Styling for description with link */
+.description {
+    text-decoration: none;
+    color: black;
+}
