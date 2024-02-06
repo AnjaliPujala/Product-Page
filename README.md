@@ -21,7 +21,7 @@ This project showcases a stylish and responsive product page with a focus on a f
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Product-Page.git
+    git clone https://github.com/AnjaliPujala/Product-Page.git
     ```
 
 2. **Open the Product Page:**
