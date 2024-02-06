@@ -50,4 +50,4 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 ## Author
 
 - **Anjali Pujala**
-  - GitHub: [YourGitHubUsername](https://github.com/AnjaliPujala)
+  - GitHub: [AnjaliPujala](https://github.com/AnjaliPujala)
